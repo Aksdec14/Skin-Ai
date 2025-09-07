@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Acne",
+    "description": "A skin condition caused by clogged hair follicles with oil and dead skin cells.",
+    "causes": ["Hormonal changes", "Bacteria", "Excess oil production"],
+    "symptoms": ["Pimples", "Blackheads", "Whiteheads", "Red bumps"],
+    "homeRemedies": ["Keep skin clean", "Use non-comedogenic products", "Avoid squeezing pimples"],
+    "precautions": ["Do not pick or squeeze", "Wash face twice daily", "Use mild skincare products"],
+    "whenToSeeDoctor": ["Severe acne not responding to home care"]
+  },
+  {
+    "name": "Eczema",
+    "description": "Inflammatory condition causing itchy, red, and dry skin.",
+    "causes": ["Genetics", "Immune system issues", "Environmental triggers"],
+    "symptoms": ["Itching", "Red patches", "Dry skin", "Cracking"],
+    "homeRemedies": ["Moisturize regularly", "Avoid harsh soaps", "Use mild detergents"],
+    "precautions": ["Avoid triggers", "Use fragrance-free products"],
+    "whenToSeeDoctor": ["Severe itching", "Infection signs", "Spreading rash"]
+  },
+  {
+    "name": "Psoriasis",
+    "description": "Chronic autoimmune disease causing rapid skin cell buildup.",
+    "causes": ["Immune system dysfunction", "Genetics", "Stress"],
+    "symptoms": ["Red scaly patches", "Itching", "Cracking skin"],
+    "homeRemedies": ["Moisturize", "Oatmeal baths", "Avoid scratching"],
+    "precautions": ["Reduce stress", "Avoid triggers like alcohol or smoking"],
+    "whenToSeeDoctor": ["Severe pain", "Joint pain", "Widespread lesions"]
+  },
+  {
+    "name": "Rosacea",
+    "description": "Chronic skin condition causing redness and visible blood vessels.",
+    "causes": ["Genetics", "Immune system", "Sun exposure"],
+    "symptoms": ["Redness", "Visible blood vessels", "Bumps and pimples"],
+    "homeRemedies": ["Use gentle cleansers", "Avoid hot drinks and spicy food"],
+    "precautions": ["Sun protection", "Avoid triggers"],
+    "whenToSeeDoctor": ["Eye irritation", "Persistent redness", "Thickened skin"]
+  },
+  {
+    "name": "Ringworm",
+    "description": "Fungal infection of the skin causing a ring-shaped rash.",
+    "causes": ["Fungal infection", "Contact with infected people or animals"],
+    "symptoms": ["Ring-shaped rash", "Itching", "Scaling"],
+    "homeRemedies": ["Antifungal creams", "Keep skin dry", "Good hygiene"],
+    "precautions": ["Avoid sharing personal items", "Wash hands regularly"],
+    "whenToSeeDoctor": ["Spreading rash", "No improvement with OTC creams"]
+  },
+  {
+    "name": "Chickenpox",
+    "description": "Viral infection causing itchy blisters and rash.",
+    "causes": ["Varicella-zoster virus"],
+    "symptoms": ["Red itchy spots", "Blisters", "Fever", "Fatigue"],
+    "homeRemedies": ["Calamine lotion", "Cool baths", "Rest"],
+    "precautions": ["Avoid scratching", "Isolate to prevent spread"],
+    "whenToSeeDoctor": ["High fever", "Severe rash", "Signs of infection"]
+  },
+  {
+    "name": "Shingles",
+    "description": "Painful rash caused by reactivation of varicella-zoster virus.",
+    "causes": ["Varicella-zoster virus reactivation"],
+    "symptoms": ["Painful rash", "Blisters", "Itching", "Burning sensation"],
+    "homeRemedies": ["Cool compresses", "Pain relievers", "Keep rash clean"],
+    "precautions": ["Avoid contact with vulnerable people"],
+    "whenToSeeDoctor": ["Severe pain", "Eye involvement", "Infection signs"]
+  },
+  {
+    "name": "Cold Sores",
+    "description": "Blisters caused by herpes simplex virus.",
+    "causes": ["HSV-1 virus"],
+    "symptoms": ["Blisters on lips", "Itching", "Burning sensation"],
+    "homeRemedies": ["Antiviral creams", "Avoid touching blisters"],
+    "precautions": ["Avoid sharing utensils", "Good hygiene"],
+    "whenToSeeDoctor": ["Frequent outbreaks", "Severe pain"]
+  },
+  {
+    "name": "Impetigo",
+    "description": "Highly contagious bacterial skin infection.",
+    "causes": ["Staphylococcus or Streptococcus bacteria"],
+    "symptoms": ["Red sores", "Itching", "Honey-colored crusts"],
+    "homeRemedies": ["Clean with mild soap", "Topical antibiotics"],
+    "precautions": ["Avoid scratching", "Do not share towels"],
+    "whenToSeeDoctor": ["Rapid spreading", "Fever", "Infection signs"]
+  },
+  {
+    "name": "Dermatitis",
+    "description": "General term for skin inflammation.",
+    "causes": ["Allergic reactions", "Irritants", "Stress"],
+    "symptoms": ["Redness", "Itching", "Swelling", "Rash"],
+    "homeRemedies": ["Moisturize", "Avoid irritants", "Cool compresses"],
+    "precautions": ["Use gentle products", "Avoid scratching"],
+    "whenToSeeDoctor": ["Severe itching", "Spreading rash", "Infection signs"]
+  },
+  {
+    "name": "Melanoma",
+    "description": "A serious type of skin cancer.",
+    "causes": ["UV exposure", "Genetics", "Fair skin"],
+    "symptoms": ["Dark irregular moles", "Changes in skin spots", "Itching or bleeding"],
+    "homeRemedies": ["Sun protection", "Regular skin checks"],
+    "precautions": ["Avoid tanning beds", "Wear sunscreen"],
+    "whenToSeeDoctor": ["New or changing moles", "Bleeding lesions"]
+  },
+  {
+    "name": "Basal Cell Carcinoma",
+    "description": "A common form of skin cancer caused by UV exposure.",
+    "causes": ["Sun exposure", "Genetics"],
+    "symptoms": ["Pearly bumps", "Open sores", "Slow healing lesions"],
+    "homeRemedies": ["Sun protection", "Regular skin checks"],
+    "precautions": ["Avoid tanning beds", "Use sunscreen"],
+    "whenToSeeDoctor": ["Persistent sores", "Rapid growth lesions"]
+  },
+  {
+    "name": "Psoriasis Vulgaris",
+    "description": "Chronic autoimmune skin disease with red, scaly plaques.",
+    "causes": ["Immune system dysfunction", "Genetics"],
+    "symptoms": ["Red patches", "Silver scales", "Itching", "Pain"],
+    "homeRemedies": ["Moisturize", "Avoid scratching", "Oatmeal baths"],
+    "precautions": ["Reduce stress", "Avoid triggers"],
+    "whenToSeeDoctor": ["Severe plaques", "Joint pain"]
+  },
+  {
+    "name": "Vitiligo",
+    "description": "Loss of skin color in patches.",
+    "causes": ["Autoimmune", "Genetic factors"],
+    "symptoms": ["White patches", "Loss of pigmentation"],
+    "homeRemedies": ["Sun protection", "Cosmetic camouflage"],
+    "precautions": ["Avoid sunburn", "Gentle skincare"],
+    "whenToSeeDoctor": ["Rapid spread", "Cosmetic concern"]
+  },
+  {
+    "name": "Warts",
+    "description": "Small, rough growths caused by human papillomavirus (HPV).",
+    "causes": ["HPV infection"],
+    "symptoms": ["Raised skin lesions", "Rough texture"],
+    "homeRemedies": ["Salicylic acid", "Cryotherapy", "Avoid picking"],
+    "precautions": ["Do not share personal items"],
+    "whenToSeeDoctor": ["Painful or spreading warts"]
+  },
+  {
+    "name": "Fungal Nail Infection",
+    "description": "Infection of nails caused by fungi.",
+    "causes": ["Fungal infection", "Moist environments"],
+    "symptoms": ["Thickened nails", "Discoloration", "Brittle nails"],
+    "homeRemedies": ["Antifungal nail creams", "Keep nails dry"],
+    "precautions": ["Avoid sharing nail tools", "Good hygiene"],
+    "whenToSeeDoctor": ["Pain", "Spreading infection"]
+  },
+  {
+    "name": "Cellulitis",
+    "description": "Bacterial infection of the skin and underlying tissues.",
+    "causes": ["Staphylococcus or Streptococcus bacteria", "Cuts", "Weakened immunity"],
+    "symptoms": ["Redness", "Swelling", "Pain", "Fever"],
+    "homeRemedies": ["Keep area clean", "Elevate affected limb"],
+    "precautions": ["Do not scratch", "Seek care for worsening symptoms"],
+    "whenToSeeDoctor": ["Rapid spreading", "Fever", "Severe pain"]
+  },
+  {
+    "name": "Lupus Skin Rash",
+    "description": "Rash associated with systemic lupus erythematosus.",
+    "causes": ["Autoimmune disease"],
+    "symptoms": ["Red butterfly-shaped rash", "Photosensitivity"],
+    "homeRemedies": ["Sun protection", "Moisturize"],
+    "precautions": ["Avoid sun exposure", "Gentle skincare"],
+    "whenToSeeDoctor": ["Spreading rash", "Painful lesions"]
+  },
+  {
+    "name": "Scabies",
+    "description": "Infestation of skin by tiny mites causing itching.",
+    "causes": ["Sarcoptes scabiei mite"],
+    "symptoms": ["Intense itching", "Rash", "Burrows"],
+    "homeRemedies": ["Prescription creams", "Wash clothing and bedding"],
+    "precautions": ["Avoid close contact until treated"],
+    "whenToSeeDoctor": ["Severe itching", "Secondary infection"]
+  },
+  {
+    "name": "Sunburn",
+    "description": "Skin damage caused by excessive UV exposure.",
+    "causes": ["Sun exposure", "UV radiation"],
+    "symptoms": ["Redness", "Pain", "Blisters", "Peeling"],
+    "homeRemedies": ["Cool compresses", "Aloe vera", "Stay hydrated"],
+    "precautions": ["Avoid further sun exposure", "Use sunscreen"],
+    "whenToSeeDoctor": ["Severe burns", "Fever", "Blisters covering large area"]
+  }
+]

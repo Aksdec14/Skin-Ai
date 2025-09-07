@@ -1,0 +1,29 @@
+{
+  "Normal Skin": {
+    "title": "Normal Skin",
+    "advice": "✅ Your skin looks normal. Keep maintaining good skincare!",
+    "remedies": [
+      "Wash face twice daily with mild cleanser",
+      "Stay hydrated",
+      "Use sunscreen regularly"
+    ]
+  },
+  "Concerning": {
+    "title": "Intermediate Skin",
+    "advice": "⚠️ Some minor issues detected. Monitor closely and apply home remedies.",
+    "remedies": [
+      "Apply soothing aloe vera gel",
+      "Avoid harsh skincare products",
+      "Keep the skin moisturized"
+    ]
+  },
+  "Immediate Action": {
+    "title": "Immediate Action Needed",
+    "advice": "🚨 Immediate action required. Please consult a dermatologist.",
+    "remedies": [
+      "Avoid self-medication",
+      "Do not scratch or irritate the skin",
+      "Seek professional advice as soon as possible"
+    ]
+  }
+}
