@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import Webcam from "react-webcam";
-import * as tmImage from "@teachablemachine/image";
-import adviceData from "./data.json"; // your latest JSON
+import * as tmImage from "@teachablemachine/image"; // Ensure this package is installed
+import adviceData from "./data.json";
 
 const MODEL_URL = "/model/";
 
@@ -13,7 +13,6 @@ const SkinClassifier = ({ setResult }) => {
   const [useCamera, setUseCamera] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  // Load Teachable Machine model
   const loadModel = async () => {
     if (!modelRef.current) {
       modelRef.current = await tmImage.load(
@@ -24,7 +23,6 @@ const SkinClassifier = ({ setResult }) => {
     return modelRef.current;
   };
 
-  // Run prediction from image or base64
   const predictFromImage = async (imgSrc) => {
     setLoading(true);
     const model = await loadModel();
@@ -50,21 +48,19 @@ const SkinClassifier = ({ setResult }) => {
     };
   };
 
-  // Handle file upload
   const handleFile = (file) => {
     if (!file) return;
     const imgSrc = URL.createObjectURL(file);
     predictFromImage(imgSrc);
   };
 
-  // Drag & drop
   const handleDrop = (e) => {
     e.preventDefault();
     handleFile(e.dataTransfer.files[0]);
   };
+
   const handleDragOver = (e) => e.preventDefault();
 
-  // Capture webcam
   const capturePhoto = () => {
     if (!webcamRef.current) return;
     const imgSrc = webcamRef.current.getScreenshot();
@@ -74,7 +70,6 @@ const SkinClassifier = ({ setResult }) => {
 
   return (
     <div className="flex flex-col items-center space-y-6">
-      {/* Capture / Upload Area */}
       {!useCamera && (
         <>
           <div
@@ -113,7 +108,6 @@ const SkinClassifier = ({ setResult }) => {
         </div>
       )}
 
-      {/* Buttons Below */}
       <div className="flex space-x-4">
         <button
           onClick={() => setUseCamera(false)}
@@ -135,7 +129,6 @@ const SkinClassifier = ({ setResult }) => {
 
       {loading && <p className="text-gray-700 mt-2">Analyzing your skin…</p>}
 
-      {/* Hidden File Input */}
       <input
         type="file"
         accept="image/*"
